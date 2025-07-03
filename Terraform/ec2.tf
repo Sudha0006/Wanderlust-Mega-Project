@@ -1,4 +1,4 @@
- Key Pair (for login)
+# Key Pair (for login)
 resource "aws_key_pair" "my_key_new" {
   key_name   = "terra-key-ec2"
   public_key = file("/home/ubuntu/bigproject/Wanderlust-Mega-Project/terraform/terra-key.pub")
